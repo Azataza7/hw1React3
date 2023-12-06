@@ -13,3 +13,29 @@
   text-decoration: none;
   color: #242424;
 }
+
+.nav-item a:hover {
+  color: red;
+}
+
+aside {
+  padding: 2%;
+  border: 1px solid black;
+}
+
+.content {
+  border: 1px solid black;
+  flex-basis: 90%;
+}
+
+.page {
+  padding: 20px;
+}
+
+.page-text {
+  font-size: 18px;
+}
+
+.title {
+  font-size: 22px;
+}

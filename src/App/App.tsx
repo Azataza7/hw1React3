@@ -5,10 +5,9 @@ import PageAdmin from '../Components/PageAdmin/PageAdmin';
 import './App.css';
 
 const App = () => {
-
   return (
     <>
-      <main className="main d-flex">
+      <main className="main d-flex gap-1">
         <aside>
           <Navigation/>
         </aside>
