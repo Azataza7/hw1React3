@@ -2,7 +2,6 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
 }
 
 .no-result-container {
@@ -45,4 +44,18 @@ aside {
   position: absolute;
   top: 40%;
   left: 50%;
+}
+
+.form {
+  padding: 50px 20px;
+  position: relative;
+}
+
+.save-btn {
+  position: absolute;
+  bottom: 3px;
+  right: 20px;
+}
+.form textarea {
+  height: 150px;
 }

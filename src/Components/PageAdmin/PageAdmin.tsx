@@ -61,8 +61,8 @@ const PageAdmin = () => {
     <>
       {loading ? <Spinner/> :
         <form className="form" onSubmit={onFormSubmit}>
-        <div className="form-group">
-          <label htmlFor="selectPage">Select page</label>
+        <div className="form-group mb-2">
+          <label htmlFor="selectPage">Select page:</label>
           <select
             id="selectPage"
             name="selectPage"
@@ -94,7 +94,7 @@ const PageAdmin = () => {
             onChange={(e) => setContent(e.target.value)}
           />
         </div>
-        <button className="btn btn-primary" type="submit">Save</button>
+        <button className="save-btn btn btn-primary" type="submit">Save</button>
       </form>
       }
     </>
