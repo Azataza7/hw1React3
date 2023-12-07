@@ -26,6 +26,7 @@ aside {
 .content {
   border: 1px solid black;
   flex-basis: 90%;
+  position: relative;
 }
 
 .page {
@@ -38,4 +39,10 @@ aside {
 
 .title {
   font-size: 22px;
+}
+
+.preloader {
+  position: absolute;
+  top: 40%;
+  left: 50%;
 }

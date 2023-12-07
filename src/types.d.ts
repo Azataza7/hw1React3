@@ -6,7 +6,3 @@ export interface pageName {
 export interface pagesJson {
   page: pageName
 }
-
-export interface filteredData {
-  data: pagesJson
-}
